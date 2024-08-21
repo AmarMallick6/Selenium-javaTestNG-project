@@ -13,8 +13,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
  * @author MAK
+ * Alert is not a WebElement
  * Alert Handle Syntax=driver.switchTo().alert();
  * Alert 3 types such as normal Alert ,  Confirm Alert  and Prompt Alert
+ * Auntheticate pop-up/Alert we can not handle using Switch To().alert()
  * 
  */
 public class AlertHandles {
