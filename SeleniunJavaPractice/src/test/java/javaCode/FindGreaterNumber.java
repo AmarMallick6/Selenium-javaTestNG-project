@@ -9,6 +9,13 @@ public class FindGreaterNumber {
       System.out.println(x);
       int m=(a<b)? a:b;     //result=393(b is big)
       System.out.println(m);
+      
+    //Approach-02(using If-else Condition)>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+      if (a<b) {
+		                      System.out.println("b is big :"+ b);
+	} else {
+		 System.out.println("a is big :"+ a);
+	}
 	}
 
 }
