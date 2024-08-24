@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" TestNG Suite">
+  <test thread-count="5" name="My Shop Test">
+    <classes>
+    <class name="com.myshop.testcase.AccountCreationTest"/>
+      <class name="com.myshop.testcase.LogInTest"/>
+       <class name="com.myshop.testcase.ProductSearchTest"/>
+     <class name="com.myshop.testcase.AddToCartTest"/>
+      <class name="com.myshop.testcase.OrderPageTest"/>
+     <class name="com.myshop.testcase.ForgotPasswordTest"/>
+       <class name="com.myshop.testcase.End_To_EndTest"/>
+    </classes>
+  </test> <!-- My Shop Test -->
+</suite> <!--  TestNG Suite -->
